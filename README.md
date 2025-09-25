@@ -63,4 +63,4 @@ risk_counts = [(y_proba <= 0.3).sum(), ((y_proba > 0.3) & (y_proba <= 0.7)).sum(
 plt.bar(risk_groups, risk_counts, color=['green', 'orange', 'red'])
 plt.title('Customers by Risk Level')
 plt.tight_layout()
-plt.show()
+plt.show() 
